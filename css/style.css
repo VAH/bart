@@ -6,14 +6,14 @@ body {
 main .container {
 	background: white;
 }
-.phone-call {background-image: url(img/phone-in-talk.svg);    background-repeat: no-repeat;
+.phone-call {background-image: url(../img/phone-in-talk.svg);    background-repeat: no-repeat;
     background-size: 40px;
     height: 40px;
     width: 40px;
     margin-top: 15px;}
 .valid {border-color: #509A44;}
 .invalid {border-color: #F05E2A;}
-.mobile-logo {background-image: url(img/m-logo.svg);height: 44px;width: 80px;background-repeat: no-repeat;text-align: center;margin-top: 12px;}
+.mobile-logo {background-image: url(../img/m-logo.svg);height: 44px;width: 80px;background-repeat: no-repeat;text-align: center;margin-top: 12px;}
 .mobile-logo-container {text-align: center;}
 h1,h2,h3,h4,h5 {
 	text-transform: uppercase;
@@ -70,7 +70,7 @@ section {
 
 /*BART*/
 header {
-	background-image: url(img/flowers.jpg);
+	background-image: url(../img/flowers.jpg);
 	background-size: 100%;
 	height: 700px;
 	background-repeat: no-repeat;
@@ -120,21 +120,21 @@ nav {
 
 .logo-frame {
     width: 260px;
-    height: 260px;
-    display: block;
     background-color: white;
     border-radius: 130px;
     position: absolute;
     top: -114px;
-    left: 40%;
     padding: 121px 0 0 8px;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
     z-index: 101;
-        text-align: center;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 
 .main-logo {
-	background-image: url(img/main-logo.svg);
+	background-image: url(../img/main-logo.svg);
 	height: 106px;
 	width: 151px;
 	background-repeat: no-repeat;
@@ -142,9 +142,9 @@ nav {
 
 nav {background-color: white; line-height: 0; padding: 0 50px}
 nav i {display: block;display: inline-block;}
-nav .fb {background-image: url(img/fb.svg);height: 18px;width: 9px;display: block;background-repeat: no-repeat;}
-nav .vk {background-image: url(img/vk.svg);height: 12px;width: 21px;display: block;background-repeat: no-repeat;}
-nav .inst {background-image: url(img/inst.svg);height: 19px;width: 20px;display: block;background-repeat: no-repeat;}
+nav .fb {background-image: url(../img/fb.svg);height: 18px;width: 9px;display: block;background-repeat: no-repeat;}
+nav .vk {background-image: url(../img/vk.svg);height: 12px;width: 21px;display: block;background-repeat: no-repeat;}
+nav .inst {background-image: url(../img/inst.svg);height: 19px;width: 20px;display: block;background-repeat: no-repeat;}
 nav .social>a{ display: inline-block; margin-left: 20px; margin-top: 27px;margin-bottom: 27px;}
 nav .mainNavDropDown .social>a{ display: inline-block; margin-left: 20px; margin-top: 7px;margin-bottom: 7px;}
 nav .phone {    display: inline-block;
@@ -180,7 +180,7 @@ img[src*="img/800.svg"] {margin-top: 50px;}
 /* DISCOUNT */
 
 #discount {
-	background-image: url(img/large-leaf.png);
+	background-image: url(../img/large-leaf.png);
 	height: 900px;
 	background-repeat: no-repeat;
 }
@@ -200,6 +200,7 @@ img[src*="img/800.svg"] {margin-top: 50px;}
     margin-left: -30px;
 
 }
+.instagram img:hover {transform:scale(1.1);}
 
 #discount h4 {
 	margin-top: 200px;
@@ -265,9 +266,9 @@ footer {
 
 footer a, footer a:hover {text-decoration: none;cursor: pointer !important;}
 footer i {margin-top:37.5px;margin-left: 16px;height: 25px;width: 25px;display: inline-block;cursor: pointer}
-footer .fb {background-image: url(img/fb-black.svg);}
-footer .vk {background-image: url(img/vk-black.svg);}
-footer .inst {background-image: url(img/inst-black.svg);}
+footer .fb {background-image: url(../img/fb-black.svg);}
+footer .vk {background-image: url(../img/vk-black.svg);}
+footer .inst {background-image: url(../img/inst-black.svg);}
 footer span {display: block;color: black;}
  
 .icon-ideofios {

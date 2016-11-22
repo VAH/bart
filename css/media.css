@@ -25,6 +25,7 @@
 
 @media only screen and (min-width: 300px) {
 	.gallery {background-color: white;}
+	
 	.gallery .flickity-viewport {height: 300px;}
 	.gallery .flickity-page-dots .dot {height: 20px; width: 20px;background: white;border: 4px solid #F15D29;}
 	.gallery .flickity-page-dots {bottom: -80px;}
@@ -48,7 +49,7 @@
 		width: 100%;
 		height: 50%;
 	}
-	header {height: 468px;margin-bottom: 20px;padding-left: 17%;padding-top: 23%;letter-spacing: 2px;}
+	header {    background-size: 150%;height: 468px;margin-bottom: 20px;padding-left: 17%;padding-top: 23%;letter-spacing: 2px;}
 	nav, nav .container { padding:0 15px; text-align: left; line-height: 70px;vertical-align: middle;	}
 	h3 {margin-top:0;text-align: center;margin-bottom: 20px;}
 	.container {padding: 0 0 100px 0;}
@@ -109,7 +110,7 @@
 	#decor h3 {margin-top: 55px; }
 	#delivery h3 {margin-top: 60px;}
 	#floristu h3 {margin-bottom: 60px;}
-	header {height: 511px;padding-top:24%;}
+	header {height: 511px;padding-top:24%;background-size: 100%;}
 	h2 {font-size: 40px;line-height: 60px;}
 	 .right-part {overflow: hidden;}
 	.florist {
@@ -148,7 +149,7 @@
 		height: 751px;
 		padding-top: 0;
 		background-position-y: 77px;
-		background-image: url(img/contacts-bg.jpg);
+		background-image: url(../img/contacts-bg.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		margin-bottom: -90px;
