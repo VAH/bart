@@ -1,0 +1,279 @@
+
+@media only screen and(max-width: 1080px){  
+	.container {
+	    width: 992px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.container {
+	    width: 768px;
+	}
+}
+
+/*@media only screen and (max-width:768px){
+	.container {
+	    width: 414px;
+	}
+}*/
+
+@media only screen and (max-width: 767px){
+	.container {
+	    width: 100%;
+
+	}
+}
+
+@media only screen and (min-width: 300px) {
+	.gallery {background-color: white;}
+	.gallery .flickity-viewport {height: 300px;}
+	.gallery .flickity-page-dots .dot {height: 20px; width: 20px;background: white;border: 4px solid #F15D29;}
+	.gallery .flickity-page-dots {bottom: -80px;}
+	.gallery button {display: none;}
+	.gallery img{width: 75%;margin: 0 auto;display: block;}
+	h2 {font-size: 40px;}
+	#floristu {
+		padding: 0 50px;
+	}
+	#floristu h3 {margin-bottom: 60px;}
+	#floristu h5 {text-align: center;margin-top: 20px;}
+	.florist {
+		width: 46%;
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+	.florist:nth-child(even) {
+		margin-left: 7%;
+	}
+	.florist img {
+		width: 100%;
+		height: 50%;
+	}
+	header {height: 468px;margin-bottom: 20px;padding-left: 17%;padding-top: 23%;letter-spacing: 2px;}
+	nav, nav .container { padding:0 15px; text-align: left; line-height: 70px;vertical-align: middle;	}
+	h3 {margin-top:0;text-align: center;margin-bottom: 20px;}
+	.container {padding: 0 0 100px 0;}
+	#bart img, #buket img, #rastenia img, #decor img, #delivery img {width: 100%; margin-bottom: 20px;}
+	#bart p, #buket p, #rastenia p, #decor p, #delivery p {margin: 0 20px; margin-bottom: 20px;}
+	ul.instagram {
+		margin: 0 -15px 0 -15px;
+		padding: 0;
+		line-height: 0;
+	}
+
+	ul.instagram li {
+		display: inline-block;
+		height: 33%;
+		width: 33%;
+		overflow: hidden;
+		margin: 0;
+	}
+
+	ul.instagram li:nth-child(1n+7){
+		display: none;
+	}
+
+	ul.instagram li img {
+		width: 100%;
+		min-height: 100%;
+	}
+	footer {text-align: center;padding-left: 35px;}
+	h3 {font-family: MullerMedium;}
+	#contacts p {font-family: MullerLight; font-size: 16px;}
+	#contacts {padding: 0 50px;margin-bottom: 0;}
+	#contacts h3 {margin-bottom: 50px;}
+	#contacts h5 {margin-bottom: 7px;font-family: MullerMedium;font-size: 18px;}
+	#contacts h4 {font-family: MullerMedium;font-size: 14px;}
+	#contacts .address {margin-bottom: 30px;}
+	#contacts .time {margin-bottom: 30px;}
+	#contacts .phone {margin-bottom: 30px;}
+	#contacts .address hr{width:90px;border-color: black; border-width: 0.5px 0;margin: 0 0 15px 0;}
+	#contacts .time hr{width:180px;border-color: black; border-width: 0.5px 0;margin: 0 0 15px 0;}
+	#contacts .phone hr{width:130px;border-color: black; border-width: 0.5px 0;margin: 0 0 15px 0;}
+}
+
+@media only screen and (min-width: 767px){
+	#contacts .address hr{width:90px;border-color: black; border-width: 0.5px 0;margin: 0 0 15px 75px;}
+	#contacts .time hr{width:180px;border-color: black; border-width: 0.5px 0;margin: 0 0 15px 27px;}
+	#contacts .phone hr{width:130px;border-color: black; border-width: 0.5px 0;margin: 0 0 15px 53px;}
+
+	nav .container {padding: 0 50px}
+	h3 {text-align: left;}
+	p {text-align: left; margin: 0 !important;}
+	.container {padding: 0 15px 90px 15px}
+	header {margin-bottom: 90px;}
+
+	#decor img {margin-bottom: 0;}
+	#bart h3 {margin-top: 0px;}
+	#buket h3 {margin-top: 40px;}
+	#rastenia h3 {margin-top: 95px;}
+	#decor h3 {margin-top: 55px; }
+	#delivery h3 {margin-top: 60px;}
+	#floristu h3 {margin-bottom: 60px;}
+	header {height: 511px;padding-top:24%;}
+	h2 {font-size: 40px;line-height: 60px;}
+	 .right-part {overflow: hidden;}
+	.florist {
+		display: inline-block;
+		width: 288px;
+		margin-left: 30px !important;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	#floristu {padding: 0;}
+	.florist img {
+		width: 100%;
+	}
+
+	.florist h5 {
+		font-family: MullerRegular;
+		font-size: 17px;
+		text-transform: none;
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+
+	.florist p {
+		margin: 0;
+		font-family: MullerRegular;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.florist:first-child,
+	.florist:nth-child(3){
+		margin-left: 0px !important;
+	}
+
+	#contacts {
+		height: 751px;
+		padding-top: 0;
+		background-position-y: 77px;
+		background-image: url(img/contacts-bg.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin-bottom: -90px;
+		margin-left: -15px;
+		margin-right: -15px;
+		text-align: center;
+	}
+	
+	#contacts h3,#contacts p {text-align: center;}
+	#contacts hr:first-child{margin-left: 67px;}
+	.contacts-container {
+		width: 400px;
+		margin: 0 auto;
+		background-color: white;
+		box-shadow: 0px 8px 58px 0px rgba(0,0,0,0.13);
+		padding: 10px;
+	}
+
+	.contacts-body {
+		padding: 40px 70px;
+		border: 1px solid rgba(0,0,0,0.14);;
+	}
+
+	.contacts-body h4 {
+		margin-bottom: 6px;
+		margin-top: 0;
+	}
+
+	.contacts-body p {
+		font-size: 15px;
+	    line-height: 19px;
+	    color: rgb(68, 68, 68);
+	}
+
+	.contacts-body hr {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		border-color: black;
+	}
+
+	.contacts-body .address,
+	.contacts-body .time {
+		margin-bottom: 30px !important;
+	}
+
+	ul.instagram li {
+		height: 256px;
+		width: 256px;
+	}
+
+	ul.instagram li img {
+		width: 256px;
+		min-height: 256px;
+	}
+
+	#decor img,#buket img {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 992px){
+	#delivery h3 {margin-top: 60px;}
+	#bart h3 {margin-top: 50px;}
+	#buket h3 {margin-top: 110px;}
+		#decor h3 {margin-top: 80px; }
+	header {height: 661px;padding-top:27%;}
+	h2 {font-size: 56px;line-height: 70px;}
+	.container { width: 992px;}
+	.florist {width: 192px;}
+	.florist:nth-child(3){margin-left: 30px !important; }
+	
+	
+
+	/* CONTACRTS */
+	#contacts {
+		height: 971px;
+		padding-top: 200px;
+		background-position-y: 0px;
+	}
+	
+	ul.instagram li {
+		height: 198px;
+		width: 198px;
+		display: inline-block !important;
+	}
+
+	ul.instagram li img {
+		width: 198px;
+		min-height: 198px;
+	}
+	
+	#buket {height: 550px;}
+	#buket img {width: auto;}
+}
+
+@media only screen and (min-width: 1080px){
+	#decor h3 {margin-top: 120px; }
+	#delivery h3 {margin-top: 100px;}
+	#bart h3 {margin-top: 90px;}
+	.container {
+	   width: 1080px;
+	}
+
+	#contacts {
+		height: 1020px;
+		padding-top: 240px;
+	}
+
+	header {
+		height: 661px;
+	}
+	ul.instagram li {
+		height: 216px;
+		width: 216px;
+	}
+
+	ul.instagram li img {
+		width: 216px;
+		min-height: 216px;
+	}
+}
+
+/*@media only screen and (min-width: 1200px){
+	.container {
+	   width: 1080px;
+	}
+}*/
