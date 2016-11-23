@@ -141,7 +141,7 @@ footer span { display: block; color: black; }
 @media only screen and (min-width:300px) {
 	h1, h2, h3, h4, h5 { text-transform: uppercase; font-family: MullerBold; }
 	h1 { color: white; font-size: 60px; font-family: MullerBold; color: #FFFFFF; letter-spacing: 4.06px; text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50); }
-	h2 { color: white; font-size: 30px;line-height: 30px;}
+	h2 { color: white; font-size: 30px;line-height: 30px;text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50);}
 	h3 { font-family: MullerMedium; color: #F15D29; font-size: 30px; margin-bottom: 40px; letter-spacing: 3px; text-align: center;}
 	h4 { color: #F15D29; font-size: 35px; letter-spacing: 2px; }
 	h5 { font-family: MullerMedium; color: black; font-size: 18px; letter-spacing: 1px; }
