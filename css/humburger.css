@@ -36,6 +36,7 @@
 	transition: .25s ease-in-out;
 }
 
+nav #nav-icon3 span{background: black;}
 nav.greenNav #nav-icon3 span{background: white;}
 nav.whiteNav #nav-icon3 span{background: black;}
 
