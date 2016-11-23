@@ -48,6 +48,7 @@
 			        <li><a href="#decor">Современный декор</a></li>
 			        <li><a href="#delivery">Доставка</a></li>
 			        <li><a href="#floristu">О нас</a></li>
+			        <li><a href="#contacts">Контакты</a></li>
 			        <div class="social hidden-md hidden-lg">
 			        	<a href="https://www.facebook.com/BartFlowersDecor/" target="_blank"><i class="fb"></i></a>
 						<a href="https://vk.com/bart_flowers_decor" target="_blank"><i class="vk"></i></a>
@@ -554,7 +555,7 @@
 		 		console.log(data);
 				for( x in data.data ){
 					// $('ul[class="instagram"]').append('<li><a href="'+data.data[x].link+'"><img src="'+data.data[x].images.low_resolution.url+'"></a></li>');
-					$('div[class="instagram"]').append('<div class="col-xs-4 col-sm-3 col-md-3 col-lg-2"><a href="'+data.data[x].link+'"><img src="'+data.data[x].images.low_resolution.url+'"></a></div>');
+					$('div[class="instagram"]').append('<div class="col-xs-4 col-sm-3 col-md-3 col-lg-2"><a href="'+data.data[x].link+'" target="_blank"><img src="'+data.data[x].images.low_resolution.url+'" ></a></div>');
 				}
 			},
 			error: function(data){

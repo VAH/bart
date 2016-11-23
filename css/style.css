@@ -2,12 +2,9 @@
 .valid { border-color: #509A44; }
 .invalid { border-color: #F05E2A; }
 
-#cennosti, #infografica { padding: 90px 0; }
 #cennosti h3 { margin-bottom: 54px; }
 #cennosti h4 { margin-bottom: 20px; }
 #cennosti h4 { margin-bottom: 20px; }
-#cennosti .love { margin-top: 164px; }
-#cennosti .zabota { margin-top: 214px; }
 #infografica h3 { margin-bottom: 60px; }
 
 /* BOOTSTRAP */

@@ -156,7 +156,7 @@ footer span { display: block; color: black; }
 	#bart p, #buket p, #rastenia p, #decor p, #delivery p { margin: 0 20px; margin-bottom: 20px; }
 
 	/* FLORISTU */
-
+	
 	/*#floristu {padding: 0 50px;}*/
 	#floristu h3 { margin-bottom: 60px; }
 	#floristu h5 { text-align: center; margin-top: 20px; }
@@ -181,6 +181,9 @@ footer span { display: block; color: black; }
 #cennosti .gallery .flickity-viewport {height: 341px !important;}
 #cennosti .gallery .flickity-page-dots {bottom: -60px;}
 	/**/
+	#cennosti, #infografica { padding-top: 0; }
+
+
 	#contacts p { font-family: MullerLight; font-size: 16px; }
 	#contacts { padding: 0 50px; margin-bottom: -60px;}
 	#contacts h3 { margin-bottom: 50px; }
@@ -211,7 +214,7 @@ footer span { display: block; color: black; }
 	#floristu h3 { margin-bottom: 60px; }
 	h2 { font-size: 40px; line-height: 60px; }
 	.right-part { overflow: hidden; }
-
+	#cennosti, #infografica { padding: 90px 0; }
 	/*	INSTAGRAM */
 	.instagram div:nth-child(n) { display: block; }
 	.florist h5 { font-family: MullerRegular; font-size: 17px; text-transform: none; margin-top: 15px; margin-bottom: 10px; }
