@@ -27,7 +27,7 @@ section { /*margin-bottom: 90px;*/ position: relative; }
 /* BOOTSTRAP */
 
 main .container { background: white; }
-main {    margin-bottom: -100px;}
+
 #instagram .container {margin-bottom: 0;padding-bottom: 0;}
 /* NAV */
 nav .container { margin-bottom: 0 !important; padding: 0 50px; box-shadow: none; }
@@ -205,10 +205,12 @@ footer span { display: block; color: black; }
 	header {height: 324px;padding-top: 15%;}
 	.container, .container-fluid {margin-bottom: 90px;}
 	.container-fluid .container {padding-bottom: 0px;}
-	
+	.container-fluid:nth-child(2){margin-bottom: 0;}
+	.container-fluid:last-child{margin-bottom: 0;}
 }
 
 @media only screen and (min-width:767px) {
+	main {    margin-bottom: -100px;}
 	.container-fluid:last-child{margin-bottom: 0;}
 		#bart img, #buket img, #rastenia img, #decor img, #delivery img { width: 100%; margin-bottom: 0px; }
 	#cennosti h3 {margin-bottom: 60px;}
@@ -245,7 +247,7 @@ footer span { display: block; color: black; }
 	#contacts .address hr { width: 90px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 75px; }
 	#contacts .time hr { width: 180px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 27px; }
 	#contacts .phone hr { width: 130px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 53px; }
-	footer { position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59); padding: 0; }
+	footer { position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59);}
 }
 
 @media only screen and (min-width:992px) {
