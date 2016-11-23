@@ -126,13 +126,14 @@ header { background-image: url(../img/flowers.jpg); background-repeat: no-repeat
 
 /* FOOTER */
 footer a, footer a:hover { text-decoration: none; cursor: pointer !important; }
-footer i { margin-top: 37.5px; margin-left: 16px; height: 25px; width: 25px; display: inline-block; cursor: pointer }
+footer i { margin-top: 21px; margin-left: 30px; height: 50px; width: 50px; display: inline-block; cursor: pointer;background-repeat: no-repeat;}
 footer .fb { background-image: url(../img/fb-black.svg); }
 footer .vk { background-image: url(../img/vk-black.svg); }
 footer .inst { background-image: url(../img/inst-black.svg); }
 footer span { display: block; color: black; }
 .icon-footer-logo { font-size: 80px; text-align: center; margin-top: 10px; margin-bottom: 10px; }
 
+#discount p{color: #F15D29; margin-bottom: 20px !important;display: block;}
 /* SLIDER */
 .gallery { background: #EEE; }
 .gallery-cell { width: 100%; height: 200px; margin-right: 10px; background: #8C8; counter-increment: gallery-cell; }
@@ -176,7 +177,6 @@ footer span { display: block; color: black; }
 	#cennosti .gallery .gellery-cell{    left: 0%;
     top: 20px;
     padding: 35px;
-    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.13);
     margin-bottom: 20px;}
 #cennosti .gallery .flickity-viewport {height: 341px !important;}
 #cennosti .gallery .flickity-page-dots {bottom: -60px;}
@@ -204,7 +204,7 @@ footer span { display: block; color: black; }
 	p { text-align: left; margin: 0 !important; }
 
 	/*.container {padding: 0 15px 90px 15px}*/
-	header { margin-bottom: 90px; height: 511px; background-size: 100%; }
+	header { height: 511px; background-size: 100%; }
 	#decor img { margin-bottom: 0; }
 	#bart h3 { margin-top: 0px; }
 	#buket h3 { margin-top: 40px; }
