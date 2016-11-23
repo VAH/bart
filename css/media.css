@@ -209,7 +209,7 @@ footer span { display: block; color: black; }
 
 	.container, .container-fluid {margin-bottom: 90px;}
 	.container-fluid .container {padding-bottom: 0px;}
-	.container-fluid:nth-child(2){margin-bottom: 0;}
+	.container-fluid:nth-child(1){margin-bottom: 0;}
 	.container-fluid:last-child{margin-bottom: 0;}
 }
 
@@ -277,7 +277,7 @@ footer span { display: block; color: black; }
 @media only screen and (min-width:1080px) {
 	h2 { font-size: 40px; line-height: 45px;}
 	header span {font-size:40px; margin-top: 40px;}
-	header { height: 939px;}
+	header { height: 800px;}
 	#decor h3 { margin-top: 120px; }
 	#delivery h3 { margin-top: 100px; }
 	#bart h3 { margin-top: 90px; }
