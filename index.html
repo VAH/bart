@@ -47,7 +47,7 @@
 			        <li><a href="#rastenia">Комнатные растения</a></li>
 			        <li><a href="#decor">Современный декор</a></li>
 			        <li><a href="#delivery">Доставка</a></li>
-			        <li><a href="#floristu">О нас</a></li>
+			        <li><a href="#cennosti">О нас</a></li>
 			        <li><a href="#contacts">Контакты</a></li>
 			        <div class="social hidden-md hidden-lg">
 			        	<a href="https://www.facebook.com/BartFlowersDecor/" target="_blank"><i class="fb"></i></a>
@@ -69,11 +69,11 @@
 <main>
 <div class="container-fluid">
 	<header id="top" class="fluid">
-		<div class="row">
+	<!-- 	<div class="row">
 			<div class="col-xs-12">
 				<h2>Магазин цветов <br> и декора bart</h2>
 			</div>
-		</div>
+		</div> -->
 	</header>
 </div>
 <div class="container">
@@ -570,7 +570,7 @@
 			});
 		});
 
-		$('.infografica-gallery').flickity({
+		$('.gallery').flickity({
 		  // options
 		  cellAlign: 'left',
 		  contain: true
@@ -581,7 +581,7 @@
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 				if (target.length) {
-					$('html, body').animate({ scrollTop: target.offset().top-70}, 1200);
+					$('html, body').animate({ scrollTop: target.offset().top-200}, 1200);
 			 	 	return false;
 				}
 			}
