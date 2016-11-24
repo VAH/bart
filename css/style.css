@@ -1,44 +1,50 @@
-.phone-call { background-image: url(../img/phone-in-talk.svg); background-repeat: no-repeat; background-size: 40px; height: 40px; width: 40px; margin-top: 15px; }
-.valid { border-color: #509A44; }
-.invalid { border-color: #F05E2A; }
 
-#cennosti h3 { margin-bottom: 54px; }
-#cennosti h4 { margin-bottom: 20px; }
-#cennosti h4 { margin-bottom: 20px; }
-#infografica h3 { margin-bottom: 60px; }
 
-/* BOOTSTRAP */
-
-/* NAVBAR */
-nav { height: 70px; margin-bottom: 0; border: none; background: white; position: absolute; width: 100%; top: 0; left: 0; position: fixed; z-index: 100; background-color: white; padding: 0 50px; padding-bottom: 0; }
-#section-bg {    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    background: none;
-    box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.05);s
+@keyframes greenNav {
+	from { background: white; }
+	to { background: #509A44; }
 }
-img[src*="img/800.svg"] { margin-top: 50px; }
-
-/*img[src*="img/7200.svg"] {margin-top: 10px;}*/
-
-/* DISCOUNT */
-
-#discount { background-image: url(../img/large-leaf.png); height: 900px; background-repeat: no-repeat; background-position-y: -50px;margin-left: -100px;padding-left: 100px;}
-#discount h1 { margin-top: 337px; margin-bottom: 0; margin-left: -14px; }
-.discount {font-family: MullerMedium; font-size: 232px; color: #FFFFFF; letter-spacing: -2.53px; text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50); line-height: 225px; margin-left: -30px; }
-#discount h4 { margin-top: 200px; }
-#mail-form { padding: 30px; box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.32); width: 360px; background-color: white; }
-input:before { content: ' \25CF'; font-size: 200px; }
-input, textarea { width: 300px; min-height: 34px; display: block; margin-bottom: 15px; padding: 6px 15px 6px 15px; outline: none; border: 1px solid #DDDDDD; }
-textarea { height: 80px; padding-top: 8px; resize: none; margin-bottom: 24px; }
-button { background-color: #509A44; padding: 12px 15px 9px 15px; color: white; text-transform: uppercase; font-family: MullerUltraLight; font-size: 14px; letter-spacing: 2px; border: none; margin-left: 167px; }
-::-webkit-input-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
-::-moz-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
-:-moz-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
-:-ms-input-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
-
-
-.icon-ideofios { font-size: 56px; text-align: left; margin-top: 22px; margin-bottom: 22px; }
-
+@-moz-keyframes greenNav {
+	from { background: white; }
+	to { background: #509A44; }
+}
+@-webkit-keyframes greenNav {
+	from { background: white; }
+	to { background: #509A44; }
+}
+@-o-keyframes greenNav {
+	from { background: white; }
+	to { background: #509A44; }
+}
+@-webkit-keyframes greenNav {
+	0% { background: white; }
+	100% { background: #509A44; }
+}
+@keyframes whiteNav {
+	from { background: #509A44; }
+	to { background: white; }
+}
+@-moz-keyframes whiteNav {
+	from { background: #509A44; }
+	to { background: white; }
+}
+@-webkit-keyframes whiteNav {
+	from { background: #509A44; }
+	to { background: white; }
+}
+@-o-keyframes whiteNav {
+	from { background: #509A44; }
+	to { background: white; }
+}
+@-webkit-keyframes whiteNav {
+	0% { background: #509A44; }
+	100% { background: white; }
+}
+@-webkit-keyframes show-logo {
+	from { top: -270px; }
+	to { top: -114px; }
+}
+@-webkit-keyframes hide-logo {
+	from { top: -114px; }
+	to { top: -270px; }
+}
