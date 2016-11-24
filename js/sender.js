@@ -74,7 +74,7 @@ $(function() {
 
 	function sendEmail(email,phone,name,comment) {
 		$.ajax({
-			url: "sender.php",
+			url: "https://vah.github.io/bart/js/sender.php",
 			type : "POST",
 			cache : false,
 			data : { email: email , phone: phone, name: name, comment: comment},
