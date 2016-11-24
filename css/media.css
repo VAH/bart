@@ -134,13 +134,14 @@ nav.greenNav .menu .inst { background-image: url(../img/inst.svg); }
 	#contacts .phone hr { width: 130px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 0; }
 
 	/* FOOTER */
-	footer { position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59); text-align: center; padding-left: 35px; padding-right: 15px; }
+	footer { height:80px;position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59); text-align: center; padding-left: 35px; padding-right: 15px; }
 	footer a, footer a:hover { text-decoration: none; cursor: pointer !important; }
-	footer i { margin-top: 40px; margin-left: 25px; height: 28px; width: 28px; display: inline-block; cursor: pointer; background-repeat: no-repeat; }
+	footer i { margin-top: 27px; margin-left: 25px; height: 28px; width: 28px; display: inline-block; cursor: pointer; background-repeat: no-repeat; }
 	footer span { display: block; color: black; }
 	footer .fb { background-image: url(../img/fb-black.svg); }
 	footer .vk { background-image: url(../img/vk-black.svg); }
 	footer .inst { background-image: url(../img/inst-black.svg); }
+	footer .footer-logo {background-image: url(../img/m-logo-black.svg);width:80px;height: 44px;display: block;margin-top: 16px;}
 }
 @media only screen and (min-width:420px) {
 	header { height: 324px; padding-top: 15%; }
@@ -153,7 +154,7 @@ nav.greenNav .menu .inst { background-image: url(../img/inst.svg); }
 	header span { font-size: 20px; margin-top: 30px; }
 }
 @media only screen and (min-width:767px) {
-	main { margin-bottom: -100px; }
+	main { margin-bottom: -80px; }
 
 	/* COMMON */
 	h3 { text-align: left; }
@@ -213,19 +214,31 @@ nav.greenNav .menu .inst { background-image: url(../img/inst.svg); }
 	}
 
 	/* FORM */
-	#mail-form { padding: 30px; box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.32); width: 360px; background-color: white; }
+	#mail-form { padding:30px 30px 50px 30px; box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.32); width: 360px; background-color: white; }
 	.valid { border-color: #509A44; }
 	.invalid { border-color: #F05E2A; }
 	input:before { content: '\25CF'; font-size: 200px; }
 	input, textarea { width: 300px; min-height: 34px; display: block; margin-bottom: 15px; padding: 6px 15px 6px 15px; outline: none; border: 1px solid #DDDDDD; }
 	textarea { height: 80px; padding-top: 8px; resize: none; margin-bottom: 24px; }
-	button {     border-radius: 4px; background-color: #509A44; padding: 12px 15px 9px 15px; color: white; text-transform: uppercase; font-family: MullerUltraLight; font-size: 14px; letter-spacing: 2px; border: none; margin-left: 167px; }
+	button {right:0;display:inline-block;position:absolute;top:0;outline:none; border-radius: 4px; background-color: #509A44; padding: 12px 15px 9px 15px; color: white; text-transform: uppercase; font-family: MullerUltraLight; font-size: 14px; letter-spacing: 2px; border: none;}
 	button:active {box-shadow: inset 0px -1px 15px 0px rgb(51, 93, 45);}
+	.form-footer {width: 100%;position: relative;}
+	.error {width: 50%;display: inline-block;}
+	.error-icon{display: 
+    background-image: url(../img/warning.svg);
+    height: 54px;
+    width: 16px;
+    background-repeat: no-repeat;}
+    #discount .error p{display:none;font-size: 13px;
+    line-height: 16px;
+}
+
 	::-webkit-input-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
 	::-moz-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
 	:-moz-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
 	:-ms-input-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
 	.icon-ideofios { font-size: 56px; text-align: left; margin-top: 22px; margin-bottom: 22px; }
+
 
 	/* FOOTER */
 	footer { position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59); }

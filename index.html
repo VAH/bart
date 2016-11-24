@@ -438,11 +438,17 @@
 				и стильный декор.
 				</p>
 				<form id="mail-form" method='POST' action="" onsubmit="return false;">
-					<input id="name" type='text' class="name" name='form_data[name]' placeholder="Ф.И.О." ></input>
-					<input id="phone" type='phone' class="phone" name='form_data[phone]' placeholder="+380" ></input>
-					<input id="email" type='email' class="email" name='form_data[email]' placeholder="EMAIL" ></input>
-					<textarea type='text' class="comment" name='form_data[comment]' placeholder="КОММЕНТАРИЙ"></textarea>
-					<button type='submit' class="submit">ОТПРАВИТЬ</button>
+					<input id="name" type='text' class="name" name='form_data[name]' placeholder="Ф.И.О."></input>
+					<input id="phone" type='phone' class="phone" name='form_data[phone]' placeholder="НОМЕР ТЕЛЕФОНА"></input>
+					<input id="email" type='email' class="email" name='form_data[email]' placeholder="EMAIL"></input>
+					<textarea type='text' class="comment" name='form_data[comment]' placeholder="КОММЕНТАРИЙ" ></textarea>
+					<div class="form-footer">
+						<div class="error">
+							<i class="error-icon"></i>
+							<p>Необходимо заполнить все обязательные поля: телефон, емейл и имя!</p>
+						</div>
+						<button type='submit' class="submit">ОТПРАВИТЬ</button>
+					</div>
 
 					<div class="loader">
 					    <svg class="hourglass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 206" preserveAspectRatio="none">
@@ -502,7 +508,7 @@
 <footer >
 	<div class="row">
 		<div class="col-xs-4">
-			<a href="#top" class="col-centered" ><span class="icon-footer-logo"></span></a>
+			<a href="#top" class="col-centered" ><i class="footer-logo"></i></span></a>
 		</div>
 		<div class="col-xs-8 col-sm-4">
 			<a href="https://www.facebook.com/BartFlowersDecor/" target="_blank"><i class="fb"></i></a>

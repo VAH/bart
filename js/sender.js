@@ -11,30 +11,30 @@ $(function() {
 		validateField( $(this) );
 	});
 
-	function validateAllFields(field){
-
-	}
+	function validateAllFields(){
+		validateField($('#name'));
+		validateField($('#email'));
+		validateField($('#phone'));
+	};
 
 	function validateField(field) {
 		var value = field.val();
 
-		if( value.length > 0 ) {
-			switch( field.attr('id') ) {
-				case 'name':
-					validateFiledValue(expLettersOnly, value, field);				
-					break;
-				case 'email':
-					validateFiledValue(expEmail, value, field);
-					break;
-				case 'phone':
-					validateFiledValue(expPhone, value, field);
-					break;
-			}
-		}	
+		switch( field.attr('id') ) {
+			case 'name':
+				validateFiledValue(expLettersOnly, value, field);				
+				break;
+			case 'email':
+				validateFiledValue(expEmail, value, field);
+				break;
+			case 'phone':
+				validateFiledValue(expPhone, value, field);
+				break;
+		}
 	}
 
 	function validateFiledValue(exp, value, field) {
-		if( !exp.test(value) ) {
+		if( !validateLength(value) || !exp.test(value) ) {
 			field.removeClass('valid');
 			field.addClass('invalid');
 		} else {
@@ -43,13 +43,18 @@ $(function() {
 		}
 	}
 
-	function validateLength(value, minLength) {
-		return( $.trim(value).length > minLength );
-	}
+	function validateLength(value) {
+
+		if(value.length < 1) {
+			$('.error p').fadeIn();
+			return false;
+		} else return true;
+}
 
 //-------------------------------------POSTING--------------------------------------
 //==================================================================================
 	document.getElementsByClassName('submit')[0].onclick = function() {
+		validateAllFields();
 		if($('.email').hasClass('valid') && 
 			$('.phone').hasClass('valid') && 
 			$('.name').hasClass('valid')) {
@@ -74,9 +79,7 @@ $(function() {
 			cache : false,
 			data : { email: email , phone: phone, name: name, comment: comment},
 			success: function(response){
-				if(response.indexOf("TRUE") !== -1){
-					success();
-				}
+				success();
 			}
 		});
 	}
