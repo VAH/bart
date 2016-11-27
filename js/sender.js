@@ -12,7 +12,8 @@ $(function() {
 	});
 
 	function validateAllFields(){
-		validateField($('#name'));
+		validateField($('#firstname'));
+		validateField($('#lastname'));
 		validateField($('#email'));
 		validateField($('#phone'));
 	};
@@ -21,7 +22,9 @@ $(function() {
 		var value = field.val();
 
 		switch( field.attr('id') ) {
-			case 'name':
+			case 'firstname':
+				validateFiledValue(expLettersOnly, value, field);	
+			case 'lastname':
 				validateFiledValue(expLettersOnly, value, field);				
 				break;
 			case 'email':
@@ -57,8 +60,9 @@ $(function() {
 		validateAllFields();
 		if($('.email').hasClass('valid') && 
 			$('.phone').hasClass('valid') && 
-			$('.name').hasClass('valid')) {
-			sendEmail($('#email').val(), $('#phone').val(),$('#name').val(),$('#comment').val());
+			$('.firstname').hasClass('valid') &&
+			$('.lastname').hasClass('valid')) {
+			sendEmail($('#email').val(), $('#phone').val(),$('#firstname').val(),$('#lastname').val(),$('#comment').val());
 		}
 	};
 
@@ -72,12 +76,12 @@ $(function() {
 		setTimeout(function(){ complete();}, 1500);
 	}
 
-	function sendEmail(email,phone,name,comment) {
+	function sendEmail(email,phone,firstname,lastname) {
 		$.ajax({
-			url: "http://pastela.com.ua/bart/js/sender.php",
+			url: "/js/sender.php",
 			type : "POST",
 			cache : false,
-			data : { email: email , phone: phone, name: name, comment: comment},
+			data : { email: email , phone: phone, firstname: firstname,lastname:lastname},
 			success: function(response){
 				success();
 			}
